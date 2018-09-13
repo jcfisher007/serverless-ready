@@ -1,19 +1,28 @@
 {
-  "name": "serverless-ready",
-  "version": "0.0.1",
+  "name": "koa-serverless-ready",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcfisher007/serverless-ready.git"
+    "url": "git+https://github.com/jcfisher007/koa-serverless-ready.git"
   },
   "author": "JC Fisher",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jcfisher007/serverless-ready/issues"
+    "url": "https://github.com/jcfisher007/koa-serverless-ready/issues"
   },
-  "homepage": "https://github.com/jcfisher007/serverless-ready#readme"
+  "homepage": "https://github.com/jcfisher007/koa-serverless-ready#readme",
+  "dependencies": {
+    "esm": "^3.0.82",
+    "koa-serverless-ready": "^0.0.4",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
 }
