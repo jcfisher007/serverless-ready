@@ -1,6 +1,6 @@
 {
-  "name": "koa-serverless-ready",
-  "version": "0.0.3",
+  "name": "serverless-ready",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jcfisher007/koa-serverless-ready#readme",
   "dependencies": {
     "esm": "^3.0.82",
-    "koa-serverless-ready": "^0.0.4",
+    "koa-serverless-ready": "^0.0.5",
     "koa-static": "^5.0.0"
   },
   "devDependencies": {
